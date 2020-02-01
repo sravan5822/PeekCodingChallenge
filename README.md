@@ -1,6 +1,6 @@
 # PeekCodingChallenge
 
-Created a small ios application that queries Github to get repositories that mention GraphQL. Used to pagination with 5 results for each page along with following details:
+Created a small ios application that queries Github to get repositories that mention GraphQL. Used pagination with 5 results for each page along with following details:
 The name of the repo
 The owner login name
 The owner avatar
