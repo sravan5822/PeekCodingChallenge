@@ -21,7 +21,7 @@ class GithubRepositoryTableViewCell: UITableViewCell {
       {
         self.nameLabel.text = repo.name
         self.ownerLabel.text = repo.owner
-        self.starsLabel.text = "\(repo.stars)"
+        self.starsLabel.text = "Starts: \(repo.stars)"
         
         if let url = URL(string: repo.avatar)
         {
